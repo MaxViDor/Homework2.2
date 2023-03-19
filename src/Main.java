@@ -63,6 +63,16 @@ public class Main {
     }
     public static void task5() {
         System.out.println("Задача 5");
+        byte totalCanColor = 120;
+        byte colorWhiteOnOneClass = 2;
+        byte colorBraunOnOneClass = 4;
+        byte canColorOnClass = (byte) (colorWhiteOnOneClass+colorBraunOnOneClass);
+        byte howManyClasses = (byte) (totalCanColor / canColorOnClass);
+        byte colorWhiteAllClasses = (byte) (howManyClasses * colorWhiteOnOneClass);
+        byte colorBraunAllClasses = (byte) (howManyClasses * colorBraunOnOneClass);
+        System.out.println("В школе, где " +howManyClasses+ " классов, нужно " +colorWhiteAllClasses+
+                " банок белой краски и " +colorBraunAllClasses+ " банок коричневой краски." );
+
 
     }
 
