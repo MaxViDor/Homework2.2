@@ -21,5 +21,12 @@ public class Main {
     }
     public static void task2() {
         System.out.println("Задача 2");
+        float f = 27.12f;
+        long l = 987678965549L;
+        float f1 = 2.786f;
+        short s = 569;
+        short s1 = -159;
+        short s2 = 27897;
+        byte b1 = 67;
     }
 }
