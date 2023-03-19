@@ -6,6 +6,7 @@ public class Main {
         task4 ();
         task5 ();
         task6 ();
+        task7 ();
     }
 
     public static void task1() {
@@ -85,6 +86,17 @@ public class Main {
         int weightProductsCoctailGramm = bananasWeight * 5 + milkWeight * 2 + iceCreamWeight * 2 + eggsWeight * 4;
         int weightProductsCoctailKg = weightProductsCoctailGramm / 1000;
         System.out.println("Вес спортзавтрака в граммах составляет " +weightProductsCoctailGramm+ " что в киллограмах составляет " +weightProductsCoctailKg+" кг");
+    }
+    public static void task7() {
+        System.out.println("Задача 7");
+        float needToSlim = 7f;
+        float slimEveryDayVer1 = 0.250f;
+        float slimEveryDayVer2 = 0.500f;
+        float daysForResultVer1 = needToSlim / slimEveryDayVer1;
+        float daysForResultVer2 = needToSlim / slimEveryDayVer2;
+        System.out.println("Чтобы сбросить спортсмену " +needToSlim+ " кг, при ежедневной потере в " +slimEveryDayVer1+ " кг, понадобится " +daysForResultVer1+ " дней");
+        System.out.println("Чтобы сбросить спортсмену " +needToSlim+ " кг, при ежедневной потере в " +slimEveryDayVer2+ " кг, понадобится " +daysForResultVer2+ " дней");
+
     }
 
 
