@@ -1,24 +1,27 @@
 public class Main {
     public static void main(String[] args) {
-     task1 ();
-     task2 ();
+        task1();
+        task2();
+        task3();
     }
+
     public static void task1() {
         System.out.println("Задача 1");
         byte b = 1;
-        System.out.println("Значение переменной b с типом byte равно " +b);
+        System.out.println("Значение переменной b с типом byte равно " + b);
         short s = 12;
-        System.out.println("Значение переменной s с типом short равно " +s);
+        System.out.println("Значение переменной s с типом short равно " + s);
         int i = 123;
-        System.out.println("Значение переменной i с типом int равно " +i);
+        System.out.println("Значение переменной i с типом int равно " + i);
         long l = 1234L;
-        System.out.println("Значение переменной l с типом long равно " +l);
+        System.out.println("Значение переменной l с типом long равно " + l);
         float f = 1.1f;
-        System.out.println("Значение переменной f с типом float равно " +f);
+        System.out.println("Значение переменной f с типом float равно " + f);
         double d = 1.12;
-        System.out.println("Значение переменной d с типом double равно " +d);
+        System.out.println("Значение переменной d с типом double равно " + d);
 
     }
+
     public static void task2() {
         System.out.println("Задача 2");
         float f = 27.12f;
@@ -29,4 +32,16 @@ public class Main {
         short s2 = 27897;
         byte b1 = 67;
     }
+
+    public static void task3() {
+        System.out.println("Задача 3");
+        byte lpStudents = 23; //Количество учеников Людмилы Павловны
+        byte asStudents = 27; //Количество учеников Фтты Сергеевны
+        byte eaStudents = 30; //Количество учеников Екатерины Андреевны
+        byte totalStudents = (byte) (lpStudents + asStudents + eaStudents);
+        short totalListOfPaper = 480;
+        System.out.println("На каждого ученика расчитано "+ totalListOfPaper / totalStudents+" листов бумаги");
+
+    }
+
 }
