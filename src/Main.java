@@ -3,6 +3,8 @@ public class Main {
         task1();
         task2();
         task3();
+        task4 ();
+        task5 ();
     }
 
     public static void task1() {
@@ -41,6 +43,26 @@ public class Main {
         byte totalStudents = (byte) (lpStudents + asStudents + eaStudents);
         short totalListOfPaper = 480;
         System.out.println("На каждого ученика расчитано "+ totalListOfPaper / totalStudents+" листов бумаги");
+
+    }
+    public static void task4() {
+        System.out.println("Задача 4");
+        byte machineProductivityPerMinute = 16/2;
+        System.out.println("За одну минуту машина произвела " +machineProductivityPerMinute+ "штук бутылок");
+        short productivity20Minute = (short) (machineProductivityPerMinute * 20);
+        System.out.println("За одну 20 минут машина произвела " +productivity20Minute+ "штук бутылок");
+        short minutePerDay = 60 * 24;
+        short productivityPerDay = (short) (machineProductivityPerMinute * minutePerDay);
+        System.out.println("За один день машина произвела " +productivityPerDay+ "штук бутылок");
+        int productivityPerThreeDays = productivityPerDay * 3;
+        System.out.println("За три дня машина произвела " +productivityPerThreeDays+ "штук бутылок");
+        int productivityPerMonth = productivityPerDay * 30;
+        System.out.println("За один месяц машина произвела " +productivityPerMonth+ "штук бутылок");
+
+
+    }
+    public static void task5() {
+        System.out.println("Задача 5");
 
     }
 
