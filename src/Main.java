@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4 ();
         task5 ();
+        task6 ();
     }
 
     public static void task1() {
@@ -75,5 +76,16 @@ public class Main {
 
 
     }
+    public static void task6() {
+        System.out.println("Задача 6");
+        byte bananasWeight = 80;
+        byte milkWeight = 105;
+        byte iceCreamWeight = 100;
+        byte eggsWeight = 70;
+        int weightProductsCoctailGramm = bananasWeight * 5 + milkWeight * 2 + iceCreamWeight * 2 + eggsWeight * 4;
+        int weightProductsCoctailKg = weightProductsCoctailGramm / 1000;
+        System.out.println("Вес спортзавтрака в граммах составляет " +weightProductsCoctailGramm+ " что в киллограмах составляет " +weightProductsCoctailKg+" кг");
+    }
+
 
 }
