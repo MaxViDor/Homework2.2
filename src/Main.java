@@ -7,6 +7,7 @@ public class Main {
         task5 ();
         task6 ();
         task7 ();
+        task8 ();
     }
 
     public static void task1() {
@@ -83,9 +84,9 @@ public class Main {
         byte milkWeight = 105;
         byte iceCreamWeight = 100;
         byte eggsWeight = 70;
-        int weightProductsCoctailGramm = bananasWeight * 5 + milkWeight * 2 + iceCreamWeight * 2 + eggsWeight * 4;
-        int weightProductsCoctailKg = weightProductsCoctailGramm / 1000;
-        System.out.println("Вес спортзавтрака в граммах составляет " +weightProductsCoctailGramm+ " что в киллограмах составляет " +weightProductsCoctailKg+" кг");
+        int weightProductsCocktailGramm = bananasWeight * 5 + milkWeight * 2 + iceCreamWeight * 2 + eggsWeight * 4;
+        int weightProductsCocktailKg = weightProductsCocktailGramm / 1000;
+        System.out.println("Вес спортзавтрака в граммах составляет " +weightProductsCocktailGramm+ " что в киллограмах составляет " +weightProductsCocktailKg+" кг");
     }
     public static void task7() {
         System.out.println("Задача 7");
@@ -96,6 +97,27 @@ public class Main {
         float daysForResultVer2 = needToSlim / slimEveryDayVer2;
         System.out.println("Чтобы сбросить спортсмену " +needToSlim+ " кг, при ежедневной потере в " +slimEveryDayVer1+ " кг, понадобится " +daysForResultVer1+ " дней");
         System.out.println("Чтобы сбросить спортсмену " +needToSlim+ " кг, при ежедневной потере в " +slimEveryDayVer2+ " кг, понадобится " +daysForResultVer2+ " дней");
+
+    }
+    public static void task8() {
+        System.out.println("Задача 8");
+        int oldMashaSalaryMonth = 67760;
+        int oldDenisSalaryMonth = 83690;
+        int oldKristinaSalaryMonth = 76230;
+        int percentMashaSalary = oldMashaSalaryMonth / 100 * 10;
+        int percentDenisSalary = oldDenisSalaryMonth / 100 * 10;
+        int percentKristinaSalary = oldKristinaSalaryMonth /100 *10;
+        int newMashaSalary = oldMashaSalaryMonth + percentMashaSalary;
+        int yearPercentMashaSalary = percentMashaSalary * 12;
+        System.out.println("Маша теперь получает " +newMashaSalary+ " рублей. Годовой доход вырос на " +yearPercentMashaSalary+ " рублей.");
+        int newDenisSalary = oldDenisSalaryMonth + percentDenisSalary;
+        int yearPercentDenisSalary = percentDenisSalary * 12;
+        System.out.println("Денис теперь получает " +newDenisSalary+ " рублей. Годовой доход вырос на " +yearPercentDenisSalary+ " рублей.");
+        int newKristinaSalary = oldKristinaSalaryMonth + percentKristinaSalary;
+        int yearPercentKristinaSalary = percentKristinaSalary * 12;
+        System.out.println("Кристина теперь получает " +newKristinaSalary+ " рублей. Годовой доход вырос на " +yearPercentKristinaSalary+ " рублей.");
+
+
 
     }
 
